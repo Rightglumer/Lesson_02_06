@@ -25,8 +25,6 @@ public class Client {
                                 System.out.println("Server: " + serverMessage);
                             } catch (IOException e) {
                                 e.printStackTrace();
-                            } else{
-                                break;
                             }
                         }
                     }
